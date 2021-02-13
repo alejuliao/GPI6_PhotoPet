@@ -23,7 +23,7 @@ const modalEvents = () => {
   });
 };
 
-//Preencher a galeria de gatos
+//Preencher a gallery de gatos
 const getCats = () => {
   let catGallery = document.querySelector(".catpics");
 
@@ -38,7 +38,7 @@ const getCats = () => {
   }
 };
 
-//Preencher a galeria de cachorros
+//Preencher a gallery de cachorros
 const getDogs = () => {
   let dogGallery = document.querySelector(".dogpics");
 
@@ -53,7 +53,7 @@ const getDogs = () => {
   }
 };
 
-//Preencher a galeria de cachorros
+//Preencher a gallery de cachorros
 const getFoxes = () => {
   let foxGallery = document.querySelector(".foxpics");
 

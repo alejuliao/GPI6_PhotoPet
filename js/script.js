@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 });
 
-function calculaOrcamento(event){
+function calculapricing(event){
     event.preventDefault()
     let nome = document.querySelector('#name').value;
     let precoBase = 20;
@@ -26,8 +26,8 @@ function calculaOrcamento(event){
     let precoFinal = qtdAnimais < 3 ? (precoBase * pack) * qtdFotos : ((precoBase * pack) * qtdFotos) *1.5;
     let precoFinalFormatado = parseFloat(precoFinal.toFixed(2)).toLocaleString('pt-BR', {currency: 'BRL',minimumFractionDigits: 2});
 
-    document.querySelector('#resultadoOrcamento').innerHTML = `Olá, ${nome}, o seu orçamento fica em R\$${precoFinalFormatado}. <br> Para confirmar, nos envie uma mensagem no whatsapp.<br>`
-    document.querySelector('#resultadoOrcamento').innerHTML += ` <a href="https://api.whatsapp.com/send?phone=5541992693665&text=Ol%C3%A1%2C%20meu%20nome%20%C3%A9%20${nome}%2C%20quero%20confirmar%20o%20or%C3%A7amento%20de%20${qtdFotos}%20fotos%20no%20valor%20de%20${precoFinalFormatado}%20reais.%20Como%20realizo%20o%20pagamento%3F" class="btn btn-success btn-sm" type="submit" target="_blank">Enviar mensagem</a>`
+    document.querySelector('#resultadopricing').innerHTML = `Olá, ${nome}, o seu orçamento fica em R\$${precoFinalFormatado}. <br> Para confirmar, nos envie uma mensagem no whatsapp.<br>`
+    document.querySelector('#resultadopricing').innerHTML += ` <a href="https://api.whatsapp.com/send?phone=5541992693665&text=Ol%C3%A1%2C%20meu%20nome%20%C3%A9%20${nome}%2C%20quero%20confirmar%20o%20or%C3%A7amento%20de%20${qtdFotos}%20fotos%20no%20valor%20de%20${precoFinalFormatado}%20reais.%20Como%20realizo%20o%20pagamento%3F" class="btn btn-success btn-sm" type="submit" target="_blank">Enviar mensagem</a>`
   }
   let buttons = document.querySelectorAll(".btnplus");
 let modals = document.querySelectorAll(".custommodal");
@@ -54,7 +54,7 @@ const modalEvents = () => {
   });
 };
 
-//Preencher a galeria de gatos
+//Preencher a gallery de gatos
 const getCats = () => {
   let catGallery = document.querySelector(".catpics");
 
@@ -69,7 +69,7 @@ const getCats = () => {
   }
 };
 
-//Preencher a galeria de cachorros
+//Preencher a gallery de cachorros
 const getDogs = () => {
   let dogGallery = document.querySelector(".dogpics");
 
@@ -84,7 +84,7 @@ const getDogs = () => {
   }
 };
 
-//Preencher a galeria de raposa
+//Preencher a gallery de raposa
 const getFoxes = () => {
   let foxGallery = document.querySelector(".foxpics");
 

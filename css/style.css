@@ -514,7 +514,7 @@ dogpregs {
 }
 /*----- Fim do about -----*/
 
-/*----- Início Página Contato/orçamento -----*/
+/*----- Início Página contact/orçamento -----*/
 .contact h2 {
     margin: 3rem 0;
     font-size: 1.5rem;
@@ -539,11 +539,11 @@ dogpregs {
   font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
 }
 
-#contact {
+/* #contact {
   background: #F9F9F9;
   padding: 25px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
+} */
 
 #contact h3 {
   display: block;
@@ -644,10 +644,10 @@ fieldset {
   color: #888;
 }
 
-/*----- Fim página de Contato -----*/
+/*----- Fim página de contact -----*/
 
 /*----- Início página de orçamento -----*/
-div#resultadoOrcamento {
+div#resultadopricing {
   margin-top: 2rem;
   text-align: center;
   font-size: 1.2rem;
@@ -655,7 +655,7 @@ div#resultadoOrcamento {
   background: #d0d169;
 }
 
-.orcamento{
+.pricing{
   margin-top: 4rem;
 }
 

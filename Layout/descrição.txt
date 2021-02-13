@@ -15,10 +15,10 @@ Serviços
     Lista de Serviços
     Rodapé*
 
-Galeria
+gallery
     Menu*
     Banner Principal*
-    Galeria de Fotos
+    gallery de Fotos
     Rodapé*
 
 Sobre nós
@@ -27,9 +27,9 @@ Sobre nós
     Sobre a empresa 
     Rodapé*
 
-Contato
+contact
     Menu*
     Banner Principal*
-    Formulário de Contato
+    Formulário de contact
     GMaps - Localização da Empresa
     Rodapé*

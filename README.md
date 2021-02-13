@@ -33,10 +33,10 @@ Projeto Integrador desenvolvido durante o curso de Desenvolvimento Web Front End
 <img src="./Layout/Tela2Services.png" alt="Tela de Serviços Disponíveis"> 
 <br>
 
-## 🖼 Tela Galeria de Clientes
+## 🖼 Tela gallery de Clientes
 
 <br>
-<img src="./Layout/Tela3Galery.png" alt="Tela da Galeria de Clientes"> 
+<img src="./Layout/Tela3Galery.png" alt="Tela da gallery de Clientes"> 
 <br>
 
 ## 🖼 Tela Sobre Nós
@@ -45,16 +45,16 @@ Projeto Integrador desenvolvido durante o curso de Desenvolvimento Web Front End
 <img src="./Layout/Tela4About.png" alt="Tela de Informações Sobre Nós"> 
 <br>
 
-## 🖼 Tela Contato
+## 🖼 Tela contact
 
 <br>
-<img src="./Layout/Tela5Contact.png" alt="Tela de Contato"> 
+<img src="./Layout/Tela5Contact.png" alt="Tela de contact"> 
 <br>
 
 ## 🖼 Tela Orçamento
 
 <br>
-<img src="./Layout/Tela6Orcamento.png" alt="Tela de Solicitação de Orçamento"> 
+<img src="./Layout/Tela6pricing.png" alt="Tela de Solicitação de Orçamento"> 
 <br>
 
 ## 🛠 Tecnologias
