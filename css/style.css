@@ -482,11 +482,17 @@ dogpregs {
 
 #services h2 {
     text-align: center;
-    margin: 2.5% ;
+    margin-top: 80px;
     font-family: 'inter', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 36;
+}
+.row.services{
+  margin: 80px 0;
+}
+.services.container{
+  padding: 0;
 }
 /*----- Fim do services -----*/
 
