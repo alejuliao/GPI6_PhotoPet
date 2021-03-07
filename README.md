@@ -54,7 +54,7 @@ Projeto Integrador desenvolvido durante o curso de Desenvolvimento Web Front End
 ## 🖼 Tela Orçamento
 
 <br>
-<img src="./Layout/Tela6pricing.png" alt="Tela de Solicitação de Orçamento"> 
+<img src="./Layout/Tela6Orcamento.png" alt="Tela de Solicitação de Orçamento"> 
 <br>
 
 ## 🛠 Tecnologias
